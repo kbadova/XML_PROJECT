@@ -18,6 +18,7 @@
 
 		<restaurant>
 			<no src="Momina_kula.jpg" width="360" height="240"/>
+			<region>София</region>    
 			<name>Японски Суши Ресторант "УАСАБИ ГАРДЪН"</name>
 			<address>София, ул. Александър Фон Хумболт 35 А, зад хотел ПЛИСКА</address>
 			<service>
