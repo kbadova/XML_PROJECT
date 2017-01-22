@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="my_restaurants.xsl"?>
+<restaurants_in_Bulgaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<types>
+	<Sofian_region>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>София</region>    
+			<name>Индийски Ресторант "КОХИНООР"</name>    
+			<address>гр. София 1463, ул. "Княз Борис I" 7</address>
+			<service>
+		  		Wi Fi, Паркинг, Климатик, Градина/ тераса, Доставки по домовете, Обедно меню, Вегетарианско меню, Специални събития - сватби, кръщенета, рождени дни, Частни партита
+		   </service>
+			<seats>80</seats>
+			<kitchen>Азиатска, Българска, Европейска, Индийска</kitchen>
+		</restaurant>
+
+		<restaurant>
+			<no src="Momina_kula.jpg" width="360" height="240"/>
+			<name>Японски Суши Ресторант "УАСАБИ ГАРДЪН"</name>
+			<address>София, ул. Александър Фон Хумболт 35 А, зад хотел ПЛИСКА</address>
+			<service>
+		   Wi Fi, Паркинг, Климатик, Градина/ тераса, На открито, Доставки по домовете, Кетъринг услуги, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   </service>
+			<seats>80</seats>
+			<kitchen>Азиатска, Суши, Японска</kitchen>			
+		</restaurant>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>София</region>    
+			<name>Ресторант "ЛА ТЕРАСА ДИ СЕРДИКА"</name>    
+			<address>София, ул. "Будапеща" № 2-4, хотел АРЕНА ДИ СЕРДИКА</address>
+			<service>
+	  		Wi Fi, Паркинг, Безкасово плащане, Климатик, Градина/ тераса, Достъп за хора с увреждания, Кетъринг услуги, Закуска, Обедно меню, Вегетарианско меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита, Промоции
+		   </service>
+			<seats>65</seats>
+			<kitchen>Българска, Европейска, Италианска, Международна, Рибни специалитети, Средиземноморска , Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+	</Sofian_region>
+
+	<Plovdiv_region>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>Пловдив</region>    
+			<name>Ресторант "КЕНДРОС"</name>    
+			<address>Пловдив, Бул. "Шести септември" 268</address>
+			<service>
+		  		Wi Fi, Паркинг, Климатик, Градина/ тераса, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   </service>
+			<seats>80</seats>
+			<kitchen>Българска, Европейска, Международна</kitchen>
+		</restaurant>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>Пловдив</region>    
+			<name>Ресторант "МЕМОРИ"</name>    
+			<address>Пловдив , площад "Съединение" 3</address>
+			<service>
+	  		Климатик, Обедно меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   </service>
+			<seats>60</seats>
+			<kitchen>Българска, Европейска, Международна, Рибни специалитети, Средиземноморска , Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+	</Plovdiv_region>
+
+	<Burgas_region>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>Бургас</region>    
+			<name>Fish and Grill Restaurant "ETHNO"</name>    
+			<address>Бургас, ул. Александровска 49</address>
+			<service>
+	  		Wi Fi, Безкасово плащане, Климатик, На открито, Обедно меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита
+		   </service>
+			<seats>100</seats>
+			<kitchen>Гръцка, Рибни специалитети, Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+		<restaurant>
+			<no src="Vrabcha.jpg" width="360" height="240"/>
+			<region>Бургас</region>    
+			<name>Бутиков ресторант "КАЛИФОРНИЯ"</name>    
+			<address>Бургас, ул. Любен Каравелов 36</address>
+			<service>
+	  		Wi Fi, Паркинг, Климатик, Градина/ тераса, Кетъринг услуги
+		   </service>
+			<seats>70</seats>
+			<kitchen>Българска, Европейска, Международна, Рибни специалитети, Средиземноморска , Авторска, Био продукти</kitchen>
+		</restaurant>
+
+	</Burgas_region>
+</types>
+</restaurants_in_Bulgaria>
