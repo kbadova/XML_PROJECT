@@ -22,12 +22,12 @@
 	.main-table, 
 	.main-table > tr,
 	.main-table > td { border: 1px solid #808080; }
-	.char-table { margin-bottom: 20px; }
+	.char-table h4 { margin-top: 0px; }
 	.char-table,
 	.char-table td,
 	.main-table > td:nth-child(2) { border: 0px; }
-	.char-table .td-header { padding-right: 35px; text-transform: uppercase; }
-	.main-table .td-img img { padding-left: 25px; padding-right: 5px; }
+	.char-table .td-header { width: 130px; padding-right: 35px; text-transform: uppercase; }
+	.main-table .td-img img { padding: 25px; }
 	th, td { text-align: left; padding: 5px; }
 	th { background-color: #4d94ff; color: white; }
 	tr:hover{ background-color:#f5f5f5; }
@@ -40,19 +40,19 @@
 		<div class="row filter">
 			<h2>Филтрирай ресторантите по регион (град) и тип на кухнята:</h2>
 			<form action="">
-			  <select name="region-filter">
-			    <option value="">Избери град</option>
-			    <option value="sofia">София</option>
-			    <option value="plovdiv">Пловдив</option>
-			    <option value="burgas">Бургас</option>
-			  </select>
-			  <select name="kitchen-filter">
-			    <option value="">Избери кухня</option>
-			    <option value="asian">Азиатска</option>
-			    <option value="bulgaria">Българска</option>
-			    <option value="fish">Рибни специалитети</option>
-			  </select>
-			  <input type="submit" value="Търси"/>
+				<select name="region-filter">
+					<option value="">Избери град</option>
+					<option value="sofia">София</option>
+					<option value="plovdiv">Пловдив</option>
+					<option value="burgas">Бургас</option>
+				</select>
+				<select name="kitchen-filter">
+					<option value="">Избери кухня</option>
+					<option value="asian">Азиатска</option>
+					<option value="bulgaria">Българска</option>
+					<option value="fish">Рибни специалитети</option>
+				</select>
+				<input type="submit" value="Търси"/>
 			</form>
 		</div>
 		<div class="row">
