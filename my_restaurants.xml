@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" version="1.0" href="my_restaurants.xsl"?>
-<?xml-stylesheet type="text/css" version="1.0" href="my_restaurants.css"?>
 <restaurants_in_Bulgaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <types>
 	<Sofian_region>

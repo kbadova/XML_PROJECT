@@ -44,14 +44,5 @@
 			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
-
-	<xs:complexType name="theFortress">
-		<xs:sequence>
-		  <xs:element name="name" type="xs:string"/>
-		  <xs:element name="era" type="xs:string"/>
-		  <xs:element name="description" type="xs:string"/>
-		  <xs:element name="condition" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	</xs:element>
+</xs:element>
 </xs:schema>
