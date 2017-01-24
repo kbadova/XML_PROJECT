@@ -6,37 +6,46 @@
 	<head>
 		<title>Ресторанти в България</title>
 		<link rel="stylesheet" type="text/css" href="my_restaurants.css"/>
+		<script src="http://code.jquery.com/jquery-1.7.min.js" type="text/javascript" />
+		<script type="text/javascript"> 
+			function sortBy(argument){
+				 $('#SortingBy' + argument).children().last().attr('select', 'descending');
+				 $('#SortingBy' + argument).attr('class', 'show');
+			}
+		</script>
 	</head>
+
 	<body>
+		<div id="SortingBykitchen" class="hide">
+
+		</div>
 		<div class="header-page">
 			<h1>Каталог на ресторантите в България</h1>
 		</div>
 		<div class="container">
 			<div class="row filter">
-				<h2>Филтрирай ресторантите по регион (град) и тип на кухнята:</h2>
-				<form action="">
-					<select name="region-filter">
-						<option value="">Избери град</option>
-						<option value="sofia">София</option>
-						<option value="plovdiv">Пловдив</option>
-						<option value="burgas">Бургас</option>
-					</select>
-					<select name="kitchen-filter">
-						<option value="">Избери кухня</option>
-						<option value="asian">Азиатска</option>
-						<option value="bulgaria">Българска</option>
-						<option value="fish">Рибни специалитети</option>
-					</select>
-					<input type="submit" value="Търси"/>
-				</form>
+				<button id="sort-by-name" onclick="sortBy('kitchen')">Сортирай по тип кухня</button>
+			
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<table class="main-table">
-						<xsl:for-each select="restaurants_in_Bulgaria/Restaurants/restaurant">
+					<table class="sort-table">
+					<xsl:for-each select="restaurants_in_Bulgaria/Restaurants">
+								<xsl:for-each select="./restaurant">
+
+									<xsl:sort select="./seats/text()"/>
+									<tr>
+										<td ><xsl:value-of select="./name/text()"/></td>
+									</tr>
+								</xsl:for-each>
+					</xsl:for-each>
+				</table>
+				<table class="main-table">
+					
+					<xsl:for-each select="restaurants_in_Bulgaria/Restaurants/restaurant">
 						<tr>
 							<td class="td-img">
-								<img>
+								<img> 
 									<xsl:attribute name="src"> <xsl:value-of select="no//@src"/> </xsl:attribute>
 									<xsl:attribute name="width"><xsl:value-of select="no//@width"/></xsl:attribute>
 									<xsl:attribute name="height"><xsl:value-of select="no//@height"/></xsl:attribute>
