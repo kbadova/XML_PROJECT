@@ -4,33 +4,9 @@
 
 <html>
 	<head>
-	<title>Ресторанти в България</title>
+		<title>Ресторанти в България</title>
+		<link rel="stylesheet" type="text/css" href="my_restaurants.css"/>
 	</head>
-	<style>
-		body {font-family: 'Arial'; font-size: 15px; }
-		.header-page { text-align: center; padding: 5px 0; margin-bottom: 26px; background-color: bisque; }
-		.container { padding: 0 15px; margin: 0 auto; width: 70%; }
-		.row { margin-right: -15px; margin-left: -15px; }
-		.row.filter { margin-bottom: 26px; }
-		.row.filter form,
-		.row.filter h2 { padding-left: 15px; }
-		.row.filter select,
-		.row.filter input[type="submit"] { margin-right: 30px; font-size: 18px; }
-		.col-md-12 { padding-right: 15px; padding-left: 15px; }
-		table { border-collapse: collapse; }
-		.main-table, 
-		.main-table > tr,
-		.main-table > td { border: 1px solid #808080; }
-		.char-table h4 { margin-top: 0px; }
-		.char-table,
-		.char-table td,
-		.main-table > td:nth-child(2) { border: 0px; }
-		.char-table .td-header { width: 130px; padding-right: 35px; text-transform: uppercase; }
-		.main-table .td-img img { padding: 25px; }
-		th, td { text-align: left; padding: 5px; }
-		th { background-color: #4d94ff; color: white; }
-		tr:hover{ background-color:#f5f5f5; }
-	</style>
 	<body>
 		<div class="header-page">
 			<h1>Каталог на ресторантите в България</h1>
@@ -74,10 +50,6 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="td-header">Регион</td>
-										<td><xsl:value-of select="region"/></td>
-									</tr>
-									<tr>
 										<td class="td-header">Адрес</td>
 										<td><xsl:value-of select="address"/></td>
 									</tr>
@@ -116,10 +88,6 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="td-header">Регион</td>
-										<td><xsl:value-of select="region"/></td>
-									</tr>
-									<tr>
 										<td class="td-header">Адрес</td>
 										<td><xsl:value-of select="address"/></td>
 									</tr>
@@ -155,10 +123,6 @@
 										<td colspan="2">
 											<h4><xsl:value-of select="name"/></h4>
 										</td>
-									</tr>
-									<tr>
-										<td class="td-header">Регион</td>
-										<td><xsl:value-of select="region"/></td>
 									</tr>
 									<tr>
 										<td class="td-header">Адрес</td>
