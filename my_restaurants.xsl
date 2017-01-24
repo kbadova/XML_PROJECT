@@ -57,7 +57,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<table class="main-table">
-						<xsl:for-each select="restaurants_in_Bulgaria/types/Sofian_region/restaurant">
+						<xsl:for-each select="restaurants_in_Bulgaria/Restaurants/restaurant">
 						<tr>
 							<td class="td-img">
 								<img>
@@ -97,6 +97,7 @@
 							</td>
 						</tr>
 						</xsl:for-each>
+
 
 						<xsl:for-each select="restaurants_in_Bulgaria/types/Plovdiv_region/restaurant">
 						<tr>
