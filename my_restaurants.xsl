@@ -8,9 +8,15 @@
 <title>Ресторанти в България</title>
 </head>
 <style>
-<!-- 	body { padding: 10px; }
-	.container { padding: 0 15px; }
+	body {font-family: 'Arial'; font-size: 15px; }
+	.header-page { text-align: center; padding: 5px 0; margin-bottom: 26px; background-color: bisque; }
+	.container { padding: 0 15px; margin: 0 auto; width: 70%; }
 	.row { margin-right: -15px; margin-left: -15px; }
+	.row.filter { margin-bottom: 26px; }
+	.row.filter form,
+	.row.filter h2 { padding-left: 15px; }
+	.row.filter select,
+	.row.filter input[type="submit"] { margin-right: 30px; font-size: 18px; }
 	.col-md-12 { padding-right: 15px; padding-left: 15px; }
 	table { border-collapse: collapse; }
 	.main-table, 
@@ -24,14 +30,30 @@
 	.main-table .td-img img { padding-left: 25px; padding-right: 5px; }
 	th, td { text-align: left; padding: 5px; }
 	th { background-color: #4d94ff; color: white; }
-	tr:hover{ background-color:#f5f5f5; } -->
+	tr:hover{ background-color:#f5f5f5; }
 </style>
 <body>
+	<div class="header-page">
+		<h1>Каталог на ресторантите в България</h1>
+	</div>
 	<div class="container">
-		<div class="row header-page">
-			<div class="col-md-12">
-				<h1>Каталог на ресторантите в България</h1>
-			</div>
+		<div class="row filter">
+			<h2>Филтрирай ресторантите по регион (град) и тип на кухнята:</h2>
+			<form action="">
+			  <select name="region-filter">
+			    <option value="">Избери град</option>
+			    <option value="sofia">София</option>
+			    <option value="plovdiv">Пловдив</option>
+			    <option value="burgas">Бургас</option>
+			  </select>
+			  <select name="kitchen-filter">
+			    <option value="">Избери кухня</option>
+			    <option value="asian">Азиатска</option>
+			    <option value="bulgaria">Българска</option>
+			    <option value="fish">Рибни специалитети</option>
+			  </select>
+			  <input type="submit" value="Търси"/>
+			</form>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
