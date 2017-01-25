@@ -5,7 +5,6 @@
 		<Region ID="1" Name="София"/>
 		<Region ID="2" Name="Пловдив"/>
 		<Region ID="3" Name="Бургас"/>
-
 	</Regions>
 	<Restaurants>
 		<restaurant ID="10" region="1">
