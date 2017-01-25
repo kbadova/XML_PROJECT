@@ -35,15 +35,48 @@
 			<div class="row">
 				<div class="col-md-12">
 					<table class="sort-table">
-						<!-- <xsl:for-each select="restaurants_in_Bulgaria/Restaurants">
+						<xsl:for-each select="restaurants_in_Bulgaria/Restaurants">
 							<xsl:for-each select="./restaurant">
 								<xsl:sort select="./seats/text()"/>
 								<tr>
-									<td ><xsl:value-of select="./seats/text()"/></td>
+									<td class="td-img">
+										<img> 
+											<xsl:attribute name="src"> <xsl:value-of select="no//@src"/> </xsl:attribute>
+											<xsl:attribute name="width"><xsl:value-of select="no//@width"/></xsl:attribute>
+											<xsl:attribute name="height"><xsl:value-of select="no//@height"/></xsl:attribute>
+										</img>
+									</td>
+									<td>
+										<table class="char-table">
+											<tr>
+												<td colspan="2">
+													<h4><xsl:value-of select="./name/text()"/></h4>
+												</td>
+											</tr>
+											<tr>
+												<td class="td-header">Адрес</td>
+												<td><xsl:value-of select="address"/></td>
+											</tr>
+											<tr>
+												<td class="td-header">Услуги</td>
+												<td><xsl:value-of select="service"/></td>
+											</tr>
+											<tr>
+												<td class="td-header">Брой места</td>
+												<td><xsl:value-of select="./seats/text()"/></td>
+											</tr>
+											<tr>
+												<td class="td-header">Тип кухня</td>
+												<td><xsl:value-of select="./kitchen/text()"/></td>
+												<td><xsl:value-of select="kitchen"/></td>
+											</tr>
+										</table>
+									</td>
 								</tr>
 							</xsl:for-each>
-						</xsl:for-each> -->
+						</xsl:for-each>
 					</table>
+					<h1>Sorted restaurants</h1>
 					<table class="main-table">
 						<xsl:for-each select="restaurants_in_Bulgaria/Restaurants">
 							<xsl:for-each select="./restaurant">
