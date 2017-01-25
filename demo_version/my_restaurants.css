@@ -2,7 +2,7 @@ body { font-family: 'Arial'; font-size: 15px; margin: 0 0 30px 0; }
 .header-page { text-align: center; padding: 5px 0; margin-bottom: 26px; background-color: #00ace6; }
 .container { padding: 0 15px; margin: 0 auto; width: 90%; }
 .row { margin-right: -15px; margin-left: -15px; }
-.row.filter { margin-bottom: 26px; display: none; }
+.row.filter { margin-bottom: 26px; }
 .row.filter button { padding:  10px; font-size: 16px; }
 .col-md-12 { padding-right: 15px; padding-left: 15px; }
 table { border-collapse: collapse; }

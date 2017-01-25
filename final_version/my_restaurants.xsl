@@ -6,27 +6,15 @@
 	<head>
 		<title>Ресторанти в България</title>
 		<link rel="stylesheet" type="text/css" href="my_restaurants.css"/>
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
-		<script src="jquery.sorting.js" type="text/javascript"></script>
 	</head>
-
+	
 	<body>
-		<div id="SortingBykitchen" class="hide">
-
-		</div>
 		<div class="header-page">
 			<h1>Каталог на ресторантите в България</h1>
 		</div>
 		<div class="container">
-			<div class="row filter">
-				<button data-sort="kitchen">Сортирай по тип кухня</button>
-				<button data-sort="seats">Сортирай по брой места</button>
-			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<table class="sort-table">
-						
-					</table>
 					<table class="main-table">
 						<xsl:for-each select="restaurants_in_Bulgaria/Restaurants/restaurant">
 							<xsl:sort select="./seats" data-type="number"/>
