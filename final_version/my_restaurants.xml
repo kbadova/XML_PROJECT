@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="1.0" href="my_restaurants.xsl"?>
+<restaurants_in_Bulgaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Regions>
+		<Region ID="1" Name="София"/>
+		<Region ID="2" Name="Пловдив"/>
+		<Region ID="3" Name="Бургас"/>
+	</Regions>
+	<Restaurants>
+		<restaurant ID="10" region="1">
+			<no src="images/kohinoor-sofia.png" width="360" height="240"/>
+				<name>Индийски Ресторант "КОХИНООР"</name>    
+				<address>гр. София, ул. "Княз Борис I" 7</address>
+				<service>
+		  		Wi Fi, Паркинг, Климатик, Градина/ тераса, Доставки по домовете, Обедно меню, Вегетарианско меню, Специални събития - сватби, кръщенета, рождени дни, Частни партита
+		   	</service>
+				<seats>80</seats>
+			<kitchen>Азиатска, Българска, Европейска, Индийска</kitchen>
+		</restaurant>
+
+		<restaurant ID="11" region="1">
+			<no src="images/sushi-sofia.png" width="360" height="240"/>
+			<name>Японски Суши Ресторант "УАСАБИ ГАРДЪН"</name>
+			<address>гр. София, ул. Александър Фон Хумболт 35 А, зад хотел ПЛИСКА</address>
+			<service>
+		   		Wi Fi, Паркинг, Климатик, Градина/ тераса, На открито, Доставки по домовете, Кетъринг услуги, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   	</service>
+			<seats>80</seats>
+			<kitchen>Азиатска, Суши, Японска</kitchen>			
+		</restaurant>
+
+		<restaurant ID="12" region="1">
+			<no src="images/la-terasa-sofia.jpg" width="360" height="240"/>
+			<name>Ресторант "ЛА ТЕРАСА ДИ СЕРДИКА"</name>    
+			<address>гр. София, ул. "Будапеща" № 2-4, хотел АРЕНА ДИ СЕРДИКА</address>
+			<service>
+					Wi Fi, Паркинг, Безкасово плащане, Климатик, Градина/ тераса, Достъп за хора с увреждания, Вегетарианско меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   	</service>
+			<seats>65</seats>
+			<kitchen>Българска, Европейска, Италианска, Международна, Рибни специалитети, Средиземноморска, Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+		<restaurant ID="13" region="2">
+			<no src="images/kendros-plovdiv.jpg" width="360" height="240"/>
+			<name>Ресторант "КЕНДРОС"</name>    
+			<address>гр. Пловдив, Бул. "Шести септември" 268</address>
+			<service>
+		  		Wi Fi, Паркинг, Климатик, Градина/ тераса, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+		   	</service>
+			<seats>80</seats>
+			<kitchen>Българска, Европейска, Международна</kitchen>
+		</restaurant>
+
+		<restaurant ID="14" region="2">
+			<no src="images/memory-plovdiv.jpg" width="360" height="240"/>
+			<name>Ресторант "МЕМОРИ"</name>    
+			<address>гр. Пловдив , площад "Съединение" 3</address>
+			<service>
+		  		Климатик, Обедно меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита, Частни партита
+			</service>
+			<seats>60</seats>
+			<kitchen>Българска, Европейска, Международна, Рибни специалитети, Средиземноморска, Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+		<restaurant ID="15" region="3">
+			<no src="images/ethno-burgas.JPG" width="360" height="240"/>
+			<name>Fish and Grill Restaurant "ETHNO"</name>    
+			<address>гр. Бургас, ул. Александровска 49</address>
+			<service>
+					Wi Fi, Безкасово плащане, Климатик, На открито, Обедно меню, Специални събития - сватби, кръщенета, рождени дни, Фирмени партита
+		   	</service>
+			<seats>100</seats>
+			<kitchen>Гръцка, Рибни специалитети, Стек Специалитети, Авторска</kitchen>
+		</restaurant>
+
+		<restaurant ID="16" region="3">
+			<no src="images/kalifornia-burgas.jpg" width="360" height="240"/>
+			<name>Бутиков ресторант "КАЛИФОРНИЯ"</name>    
+			<address>гр. Бургас, ул. Любен Каравелов 36</address>
+			<service>
+					Wi Fi, Паркинг, Климатик, Градина/ тераса, Кетъринг услуги
+		   	</service>
+			<seats>70</seats>
+			<kitchen>Българска, Европейска, Международна, Рибни специалитети, Средиземноморска, Авторска, Био продукти</kitchen>
+		</restaurant>
+	</Restaurants>
+</restaurants_in_Bulgaria>

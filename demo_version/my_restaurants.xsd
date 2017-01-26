@@ -39,11 +39,11 @@
 	<xs:element name="restaurant">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="name"/>
-				<xs:element name="address"/>
-				<xs:element name="service"/>
-				<xs:element name="seats"/>
-				<xs:element name="kitchen"/>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="address" type="xs:string"/>
+				<xs:element name="service" type="xs:string"/>
+				<xs:element name="seats" type="xs:integer"/>
+				<xs:element name="kitchen" type="xs:string"/>
 			</xs:sequence>
 			<xs:attribute name="ID" use="required">
 				<xs:simpleType>
